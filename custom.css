@@ -1,0 +1,36 @@
+/*
+This is a dark theme for mainsail.
+It is inspired by the Eryone theme.
+GitHub:         https://github.com/dapostol73/MainsailEryoneTheme
+Eryone COLOR PALETTE
+    Background:  #121212;
+    CurrentLine: #282828;
+    Foreground:  #f2f2f2;
+    Comment:     #6272a4;
+    Green:       #28c550;
+    Orange:      #ed8323;
+    Red:         #d82525;
+    Amber:      #bf891d;
+*/
+
+:root {
+    --Primary:        #ed8323;    /*Eryone:Orange*/
+    --Secondary:      #808080;    /*Eryone:CurrentLine*/
+    --Green:          #28c550;    /*Eryone:Green*/
+    --Red:            #d82525;    /*Eryone:Red*/
+    --Warnings:       #bf891d;    /*Eryone:Amber*/
+    --Text:           #f2f2f2;    /*Eryone:Foreground*/
+    --DarkerText:     #e0e0e0;    
+    --Background:     #282828;    /*Eryone:CurrentLine*/
+    --DarkBackground: #121212;    /*Eryone:Background*/
+    --Toolbars:       #282828;    /*Eryone:CurrentLine*/
+    --Sheets:         #121212;    /*Eryone:Background*/
+}
+.v-application {
+    --v-primary-base: var(--Primary) !important;
+    --v-anchor-base:  var(--Primary) !important;
+    --v-error-base:   var(--Red) !important;
+    --v-success-base: var(--Green) !important;
+    --v-warning-base: var(--Warnings) !important;
+    --v-panel-base:   var(--DarkBackground) !important;
+}
