@@ -1,7 +1,7 @@
 # Mainsail Eryone Theme
 An Eryone theme for [Mainsail](https://docs.mainsail.xyz/)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
 
 ## Install Manually
 You need mainsaill already installed on your machine, open your browser and search your 3D printer IP.
