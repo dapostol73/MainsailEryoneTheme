@@ -20,16 +20,16 @@ sidebar-logo.svg
 ```
 ## Install via Git
 ```bash
-git clone https://github.com/dapostol73/MainsailEryoneTheme.git ~/klipper_config/.theme
+git clone https://github.com/dapostol73/MainsailEryoneTheme.git ~/printer_data/config/.theme
 ```
 ## Update via Git
 ```bash
-git -C ~/klipper_config/.theme pull
+git -C ~/printer_data/config/.theme pull
 ```
 
 ## License
 [GNU LICENSE](./LICENSE)
 
 ## More
-* Find more themes at [Mainsail Docs - Theming](https://docs.mainsail.xyz/theming)
+* Find more themes at [Mainsail Docs - Theming](https://docs.mainsail.xyz/overview/features/themes)
 * How to Install Mainsail Themes [YouTube](https://youtu.be/kbSfLQtl4tA) 
